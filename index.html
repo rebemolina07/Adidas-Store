@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adidas Store</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Oswald:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="encabezado">
+    <div class="barra">
+      <a class="marca" href="#inicio">
+        <img src="img/logo.jpg" alt="Adidas" class="logo">
+        <span>STORE</span>
+      </a>
+
+      <nav class="menu">
+        <a href="#inicio">Inicio</a>
+        <a href="#productos-destacados">Productos</a>
+        <a href="#nuestros-servicios">Servicios</a>
+        <a href="#contactanos">Contáctanos</a>
+      </nav>
+
+      <div class="acciones">
+        <span class="simbolo">search</span>
+        <span class="simbolo">shopping_bag</span>
+        <span class="simbolo">person</span>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="portada" id="inicio">
+      <div class="capa"></div>
+      <div class="info">
+        <p>IMPOSSIBLE IS NOTHING</p>
+        <h1>LO IMPOSIBLE<br>ES NADA</h1>
+        <a href="#productos-destacados" class="boton">
+        </a>
+      </div>
+    </section>
+
+    <section class="historia">
+      <h2>IMPULSANDO ATLETAS DESDE 1949.</h2>
+      <div class="texto">
+        <p>
+          Nuestra herencia se forja en las pistas, canchas y calles.
+          Creemos que a través del deporte tenemos el poder de cambiar
+          vidas, creando equipamiento con tecnología y diseño innovador.
+        </p>
+        <p>
+          La calidad no es negociable. Creamos productos para que
+          superes tus límites y alcances tus objetivos deportivos.
+        </p>
+      </div>
+    </section>
+
+    <section class="productos" id="productos-destacados">
+      <h2>PRODUCTOS DESTACADOS</h2>
+
+      <div class="grid">
+        <article class="tarjeta">
+          <div class="imagen">
+            <img src="img/zapatos_blancos.jpg" alt="Adizero Pro">
+          </div>
+          <h3>ADIZERO PRO</h3>
+          <p class="precio">$180</p>
+          <button class="boton">COMPRAR AHORA</button>
+        </article>
+
+        <article class="tarjeta">
+          <div class="imagen">
+            <img src="img/buzo_blanco.jpg" alt="Essential Hoodie">
+          </div>
+          <h3>ESSENTIAL HOODIE</h3>
+          <p class="precio">$65</p>
+          <button class="boton">COMPRAR AHORA</button>
+        </article>
+
+        <article class="tarjeta">
+          <div class="imagen">
+            <img src="img/balon.jpg" alt="Balón deportivo">
+          </div>
+          <h3>AL RIHLA PRO</h3>
+          <p class="precio">$140</p>
+          <button class="boton">COMPRAR AHORA</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="productos ofertas" id="ofertas-exclusivas">
+      <h2>OFERTAS EXCLUSIVAS</h2>
+
+      <div class="grid">
+        <article class="tarjeta">
+          <div class="imagen">
+            <img src="img/zapatos.jpg" alt="Ultraboost 22">
+          </div>
+          <h3>ULTRABOOST 22</h3>
+          <p class="precio">
+            <del>$190</del> <strong>$130</strong>
+          </p>
+          <button class="boton">COMPRAR AHORA</button>
+        </article>
+
+        <article class="tarjeta">
+          <div class="imagen">
+            <img src="img/buzo.jpg" alt="Track Jacket">
+          </div>
+          <h3>TRACK JACKET CLASSIC</h3>
+          <p class="precio">
+            <del>$85</del> <strong>$60</strong>
+          </p>
+          <button class="boton">COMPRAR AHORA</button>
+        </article>
+      </div>
+    </section>
+
+    <section class="servicios" id="nuestros-servicios">
+      <h2>NUESTROS SERVICIOS</h2>
+
+      <div class="grid">
+        <article class="servicio">
+          <span class="simbolo">sprint</span>
+          <h3>CALZADO DE ALTO RENDIMIENTO</h3>
+          <p>Encuentra el calzado ideal para correr, entrenar y competir.</p>
+        </article>
+
+        <article class="servicio invertida">
+          <span class="simbolo">apparel</span>
+          <h3>INDUMENTARIA DEPORTIVA</h3>
+          <p>Ropa deportiva cómoda, moderna y diseñada para acompañarte.</p>
+        </article>
+
+        <article class="servicio">
+          <span class="simbolo">support_agent</span>
+          <h3>ASESORÍA PERSONALIZADA</h3>
+          <p>Encuentra el equipamiento adecuado para tus objetivos.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="contacto" id="contactanos">
+      <h2>UNETE A LA REVOLUCION</h2>
+      <p>Dejanos tu mensaje y nuestro equipo se pondra en contacto contigo.</p>
+
+      <form class="formulario">
+        <label for="nombre">Nombre completo</label>
+        <input id="nombre" type="text" placeholder="Tu nombre" required>
+
+        <label for="email">Correo electronico</label>
+        <input id="email" type="email" placeholder="tu@email.com" required>
+
+        <label for="mensaje">Mensaje</label>
+        <textarea id="mensaje" rows="4" placeholder="¿En que podemos ayudarte?" required></textarea>
+
+        <button type="submit" class="boton">ENVIAR MENSAJE</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <div class="footer-grid">
+      <div>
+        <h3>ADIDAS STORE</h3>
+        <p>PUSHING BOUNDARIES SINCE 1949.</p>
+      </div>
+
+      <div>
+        <h3>INFORMACiON</h3>
+        <a href="#">Envios</a>
+        <a href="#">Devoluciones</a>
+        <a href="#">Tiendas</a>
+      </div>
+
+      <div>
+        <h3>SOPORTE</h3>
+        <a href="#contactanos">Ayuda</a>
+        <a href="#">Preguntas frecuentes</a>
+      </div>
+    </div>
+
+    <p class="copyright">
+      2026 Adidas Store. Todos los derechos reservados.
+    </p>
+  </footer>
+
+</body>
+</html>
